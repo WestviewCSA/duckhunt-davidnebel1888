@@ -1,4 +1,14 @@
-/Duck.class
-/Frame.class
-/Music.class
 /imgs/
+/Crow.class
+/Background.class
+/Character.class
+/StdAudio$1.class
+/StdAudio$BackgroundRunnable.class
+/StdAudio$QueueOfDoubles.class
+/StdAudio.class
+/GameBackground.class
+/Dog.png
+/skeleDog.png
+/Skeledog.class
+/Realskeledog.class
+/baseball_hit.wav
