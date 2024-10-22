@@ -22,7 +22,7 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 	Music boing = new Music("boing_x.wav", false);
 	Music chomp = new Music("croc_chomp_x.wav", false);
 	Font bigFont = new Font("Serif", Font.BOLD, 100);
-	Font medFont = new Font("Serif", Font.BOLD, 100);
+	Font medFont = new Font("Serif", Font.BOLD, 50);
 	Crow crow = new Crow();
 	Realskeledog dog = new Realskeledog(); //what is your dog object
 	
@@ -94,6 +94,8 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 		
 		
 		b.paint(g);
+		
+		g.setFont(medFont);
 		g.drawString(score + "", 100, 50);
 		
 		//add 16 to time since paint is called every time
